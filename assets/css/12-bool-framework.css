@@ -224,7 +224,7 @@ body.debug .container [class*=col-] {
   }
 }
 
-@media all and (min-width: 768px) and (max-with: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   .col-md-1 {
     width: calc(100% / 12);
   }

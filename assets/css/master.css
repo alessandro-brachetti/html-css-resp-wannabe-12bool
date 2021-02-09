@@ -37,14 +37,30 @@ img {
 
 /* MEDIA QUERIES */
 @media all and (min-width: 992px) {
+  .container {
+    margin-top: 80px;
+  }
+
   img {
     height: 200px;
   }
-  #lezioni, #why {
+
+  #lezioni{
     background-color: transparent;
+    }
+
+  #why {
+    margin-top: 50px;
+    background-color: #f9f9f9;
+
   }
 
   #steps {
+    margin-top: 50px;
     background-color: #f9f9f9;
+  }
+
+  #why h1{
+    padding-bottom: 80px;
   }
 }
