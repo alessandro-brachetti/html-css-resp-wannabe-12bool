@@ -1,0 +1,50 @@
+#lezioni img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+img {
+  height: 150px;
+}
+
+#lezioni {
+  text-align: center;
+  background-color: #F2F2CD;
+  padding: 15px 10px;
+}
+
+#steps {
+  text-align: center;
+  padding: 15px 10px;
+}
+
+#why {
+  text-align: center;
+  background-color: #F2F2CD;
+  padding: 15px 10px;
+}
+
+[class^=col-] {
+  padding-bottom: 15px;
+}
+
+/* MEDIA QUERIES */
+@media all and (min-width: 992px) {
+  img {
+    height: 200px;
+  }
+  #lezioni, #why {
+    background-color: transparent;
+  }
+
+  #steps {
+    background-color: #f9f9f9;
+  }
+}
